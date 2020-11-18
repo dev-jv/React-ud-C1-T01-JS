@@ -1,5 +1,5 @@
 
-console.log('Blue');
+console.log('blue');
 
 
 
