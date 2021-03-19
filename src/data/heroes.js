@@ -35,6 +35,3 @@ export {
     heroes as default,
     owners
 }
-
-
-

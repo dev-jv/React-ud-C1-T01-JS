@@ -1,8 +1,8 @@
 // <> ...
-// const getImagenPromesa = () => new Promise( resolve => resolve('https://ajskdhaskjdhajs.com') )
-// getImagenPromesa().then( console.log );
+// const getImagePromise = () => new Promise( resolve => resolve('https://ajskdhaskjdhajs.com') )
+// getImagePromise().then( console.log );
 // <> ...
-const getImagen = async() => {
+const getImage = async() => {
 
     try {
         const apiKey = 'C1khQe3Z7R1W2lfTO9myKeuShdqFYSGC';
@@ -18,9 +18,6 @@ const getImagen = async() => {
     } catch (error) {
         console.error(error)
     }
-}
+};
 
- getImagen();
-
-
-
+ getImage();

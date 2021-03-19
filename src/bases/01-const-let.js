@@ -1,6 +1,4 @@
-// --------------------------- <> Variables y Constantes
-
-
+// --------------------------- <> Variables and Constants
 
 let dev = 1; // Asigna
 dev = 2; // Re-asigna
@@ -23,6 +21,3 @@ if (true) {
     console.log(kad); // ---------- 30
 }
 console.log(kad); // -------------- 20
-
-
-
