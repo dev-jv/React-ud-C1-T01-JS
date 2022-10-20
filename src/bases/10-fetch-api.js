@@ -1,4 +1,4 @@
-const apiKey = 'C1khQe3Z7R1W2lfTO9myKeuShdqFYSGC';
+const apiKey = '3mS6QgbKP3edjoePuaiWZ33dP77PhEyN';
 
 const request = fetch(`http://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
 
@@ -7,8 +7,9 @@ request
     .then( ({ data }) => {
 
         const { url } = data.images.original;
-        
+
         const img = document.createElement('img');
+
         img.src = url;
 
         document.body.append(img);
